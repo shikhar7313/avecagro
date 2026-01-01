@@ -1,0 +1,38 @@
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: grid;
+  place-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #111b21;
+  border-radius: 16px;
+  padding: 24px;
+  width: min(90vw, 360px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e9edef;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.modal input {
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  background: #202c33;
+  color: #fff;
+}
+
+.modal button {
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  font-weight: 600;
+  background: #005c4b;
+  color: #fff;
+  cursor: pointer;
+}

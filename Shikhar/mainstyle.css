@@ -1,0 +1,327 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #f8f9fa; /* Default light font color for visibility */
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364, #4ca1af, #a1c4fd);
+    background-size: 400% 400%;
+    animation: gradientBackground 12s ease infinite;
+  }
+
+  @keyframes gradientBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .slide-in {
+    animation: slideIn 0.8s ease-in-out;
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  input:focus {
+    outline: none;
+    ring: 2px solid #38a169; /* Tailwind green-500 */
+  }
+
+  button:hover {
+    background-color: #2f855a; /* Tailwind green-600 */
+    transform: scale(1.05);
+  }
+
+  button {
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card {
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    color: #1a202c; /* Dark text color for better contrast */
+    font-weight: 600; /* Increased font weight for better readability */
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .button-premium {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+
+  .button-premium:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+    transform: scale(1.05);
+  }
+
+  .input-premium {
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+
+  .input-premium:focus {
+    border-color: #6a11cb;
+    outline: none;
+    box-shadow: 0 0 8px rgba(106, 17, 203, 0.4);
+  }
+
+  .adjustable-text {
+    color: var(--text-color, #f8f9fa); /* Use CSS variable for adjustable text color */
+    transition: color 0.3s ease-in-out;
+  }
+
+  .adjustable-text-dark {
+    --text-color: #1a202c; /* Dark text color for light backgrounds */
+  }
+
+  .adjustable-text-light {
+    --text-color: #f8f9fa; /* Light text color for dark backgrounds */
+  }
+
+  h1, h2, h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #ffffff; /* Ensure headings are visible */
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  .text-primary {
+    color: #2d3748; /* Adjusted primary text color for better contrast */
+  }
+
+  .text-secondary {
+    color: #718096; /* Slightly darker secondary text color */
+  }
+
+  .text-highlight {
+    color: #2b6cb0; /* Adjusted highlight color for better visibility */
+  }
+
+  /* Premium Banner */
+  .premium-banner {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    padding: 16px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  /* Call-to-Action Section */
+  .cta-section {
+    background: linear-gradient(135deg, #34d399, #10b981);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 40px;
+  }
+
+  .cta-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff; /* Ensure text in call-to-action section is visible */
+    font-weight: 700; /* Bold text for emphasis */
+  }
+
+  .cta-section button {
+    background: white;
+    color: #10b981;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    color: #ffffff; /* Ensure text in call-to-action section is visible */
+    font-weight: 700; /* Bold text for emphasis */
+  }
+
+  .cta-section button:hover {
+    background: #d1fae5;
+    transform: scale(1.05);
+    color: #10b981; /* Maintain contrast on hover */
+  }
+
+  /* Footer */
+  footer {
+    background: linear-gradient(135deg, #1a202c, #2d3748);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 8px;
+  }
+
+  footer a {
+    color: #88f2d4;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+
+  footer a:hover {
+    color: #ffffff;
+  }
+
+  .card h2, .card p, .card div {
+    color: #1a202c; /* Ensure all text inside cards is dark for visibility */
+  }
+
+  .bg-white {
+    color: #1a202c; /* Dark text color for white backgrounds */
+    font-weight: 600; /* Increased font weight */
+  }
+
+  .text-gray-500 {
+    color: #4a5568; /* Slightly darker gray for better contrast */
+  }
+
+  .text-gray-800 {
+    color: #2d3748; /* Darker gray for improved visibility */
+  }
+
+  footer p, footer a {
+    color: #f8f9fa; /* Ensure footer text is visible */
+    font-weight: 600; /* Increased font weight */
+  }
+
+  footer a:hover {
+    color: #88f2d4; /* Maintain contrast on hover */
+  }
+
+  /* Enhanced Fonts for Revenue Trends and Crop Yield Analysis */
+  .revenue-trends h2, .crop-yield-analysis h2 {
+    font-size: 2rem; /* Larger font size for headings */
+    font-weight: 700; /* Bold font for emphasis */
+    color: #2d3748; /* Darker color for better contrast */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+
+  .revenue-trends p, .crop-yield-analysis p {
+    font-size: 1.125rem; /* Slightly larger font size for descriptions */
+    font-weight: 500; /* Medium font weight for readability */
+    color: #4a5568; /* Adjusted gray for better visibility */
+  }
+
+  /* Updated Font Colors for Revenue Trends and Crop Yield Analysis */
+  .revenue-trends h2, .crop-yield-analysis h2 {
+    color: #1a202c; /* Darker color for headings */
+  }
+
+  .revenue-trends p, .crop-yield-analysis p {
+    color: #2d3748; /* Slightly darker gray for descriptions */
+  }
+
+  /* Notification Styles */
+  .notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #38a169, #48bb78);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(-20px) translateX(-50%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+  }
+
+  .notification.show {
+    opacity: 1;
+    transform: translateY(0) translateX(-50%);
+  }
+
+  .notification.error {
+    background: linear-gradient(135deg, #e53e3e, #f56565);
+  }
+
+  /* Sidebar Enhancements */
+  nav ul li a {
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+
+  nav ul li a:hover {
+    color: #38a169;
+    transform: translateX(5px);
+  }
+
+  /* Enhanced Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #38a169;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2f855a;
+  }
+
+  /* Accessibility Enhancements */
+  a:focus, button:focus {
+    outline: 2px solid #38a169;
+    outline-offset: 2px;
+  }

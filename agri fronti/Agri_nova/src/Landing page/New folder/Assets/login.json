@@ -1,0 +1,59 @@
+[
+  {
+    "id": "a2bd1169-bb56-4cce-84b9-91faaab8decb",
+    "username": "DEVANG",
+    "email": "devangbharti12@gmail.com",
+    "password": "Monali27@",
+    "provider": "password",
+    "createdAt": "2025-11-27T23:38:59.713Z"
+  },
+  {
+    "id": "google-1764287979757",
+    "username": "Google Farmer (Google)",
+    "email": "farmer1764287979757@gmail.com",
+    "password": "",
+    "provider": "google",
+    "createdAt": "2025-11-27T23:59:39.757Z"
+  },
+  {
+    "id": "google-1764289453032",
+    "username": "Google Farmer (Google)",
+    "email": "farmer1764289453032@gmail.com",
+    "password": "",
+    "provider": "google",
+    "createdAt": "2025-11-28T00:24:13.032Z"
+  },
+  {
+    "id": "google-1764290281557",
+    "username": "Google Farmer (Google)",
+    "email": "farmer1764290281557@gmail.com",
+    "password": "",
+    "provider": "google",
+    "createdAt": "2025-11-28T00:38:01.557Z"
+  },
+  {
+    "id": "google-1764290380473",
+    "username": "Google Farmer (Google)",
+    "email": "farmer1764290380473@gmail.com",
+    "password": "",
+    "provider": "google",
+    "createdAt": "2025-11-28T00:39:40.473Z"
+  },
+  {
+    "id": "google-1764290427375",
+    "username": "Google Farmer (Google)",
+    "email": "farmer1764290427375@gmail.com",
+    "password": "",
+    "provider": "google",
+    "createdAt": "2025-11-28T00:40:27.375Z"
+  },
+  {
+    "id": "google-104387490353734643419",
+    "username": "Avec Agro",
+    "email": "avecagro73@gmail.com",
+    "password": "",
+    "provider": "google",
+    "createdAt": "2025-11-28T00:40:45.689Z",
+    "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocLz6drXPoJKWulP4kkvZ3wb3a-n28ugVZPyk2zluYONhpYCyw=s96-c"
+  }
+]

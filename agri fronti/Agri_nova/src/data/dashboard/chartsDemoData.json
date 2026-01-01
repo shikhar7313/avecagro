@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2025-11-30T00:00:00Z",
+  "waterUsage": {
+    "months": ["May", "Jun", "Jul", "Aug", "Sep", "Oct"],
+    "actualKL": [38, 35, 42, 33, 37, 31],
+    "targetKL": [36, 34, 38, 32, 35, 30],
+    "recirculationRatePct": [66, 68, 69, 71, 73, 74],
+    "highlights": {
+      "peakMonth": "Jul",
+      "peakKL": 42,
+      "efficiencyPct": 84,
+      "deltaVsPlanPct": 3.1
+    }
+  },
+  "equipmentUtilization": {
+    "machines": [
+      {"name": "Tractor A1", "category": "Tillage", "hours": 186, "availabilityPct": 96, "fuelLph": 6.3},
+      {"name": "Harvester B2", "category": "Harvest", "hours": 142, "availabilityPct": 92, "fuelLph": 11.1},
+      {"name": "Seeder D1", "category": "Planting", "hours": 88, "availabilityPct": 94, "fuelLph": 4.2},
+      {"name": "Sprayer S3", "category": "Protection", "hours": 76, "availabilityPct": 89, "fuelLph": 3.5}
+    ],
+    "downtimeHours": [
+      {"reason": "Maintenance", "hours": 14},
+      {"reason": "Weather", "hours": 6},
+      {"reason": "Logistics", "hours": 4}
+    ]
+  },
+  "productionOverview": {
+    "crops": [
+      {"name": "Wheat", "areaHa": 24, "yieldTonnes": 78, "changePct": 4.5},
+      {"name": "Paddy", "areaHa": 18, "yieldTonnes": 65, "changePct": 3.2},
+      {"name": "Maize", "areaHa": 12, "yieldTonnes": 34, "changePct": 2.1},
+      {"name": "Vegetables", "areaHa": 9, "yieldTonnes": 28, "changePct": 6.7}
+    ],
+    "harvestSchedule": [
+      {"crop": "Wheat", "window": "Dec Wk1", "status": "On Track"},
+      {"crop": "Paddy", "window": "Nov Wk3", "status": "Moisture Check"},
+      {"crop": "Maize", "window": "Jan Wk2", "status": "Spray Pending"}
+    ]
+  },
+  "monthlyProduction": {
+    "months": ["May", "Jun", "Jul", "Aug", "Sep", "Oct"],
+    "tonnes": [18.2, 21.5, 24.1, 26.4, 28.0, 29.6],
+    "forecastTonnes": [18.8, 22.1, 24.8, 27.0, 28.7, 30.2]
+  },
+  "revenue": {
+    "quarters": ["Q1", "Q2", "Q3", "Q4"],
+    "actualUSDk": [210, 238, 284, 326],
+    "targetUSDk": [200, 230, 270, 320],
+    "channels": [
+      {"channel": "FPO Contracts", "sharePct": 42},
+      {"channel": "Mandis", "sharePct": 28},
+      {"channel": "Export", "sharePct": 18},
+      {"channel": "Retail", "sharePct": 12}
+    ]
+  },
+  "soilHealth": {
+    "zones": [
+      {"name": "North Block", "ph": 6.4, "ec": 1.2, "moisturePct": 28, "organicMatterPct": 2.1},
+      {"name": "Central Block", "ph": 6.7, "ec": 1.0, "moisturePct": 31, "organicMatterPct": 2.6},
+      {"name": "South Block", "ph": 6.1, "ec": 1.4, "moisturePct": 26, "organicMatterPct": 1.9}
+    ],
+    "nutrientBalance": {"N": 68, "P": 72, "K": 64, "S": 58},
+    "alerts": ["Apply gypsum @ 250 kg/acre in South Block", "Top dress nitrogen in North Block"]
+  },
+  "weatherTrends": {
+    "weeks": ["W1", "W2", "W3", "W4", "W5", "W6", "W7", "W8"],
+    "temperatureC": [31, 32, 33, 32, 30, 29, 28, 30],
+    "rainfallMm": [12, 18, 42, 9, 4, 0, 6, 14],
+    "windSpeedKmph": [9, 8, 11, 7, 6, 5, 7, 8]
+  },
+  "cropGrowth": {
+    "stages": [
+      {"crop": "Paddy", "stage": "Tillering", "progressPct": 62, "daysToHarvest": 55},
+      {"crop": "Maize", "stage": "Silking", "progressPct": 78, "daysToHarvest": 32},
+      {"crop": "Chilli", "stage": "Flowering", "progressPct": 54, "daysToHarvest": 41},
+      {"crop": "Onion", "stage": "Bulb Formation", "progressPct": 83, "daysToHarvest": 20}
+    ],
+    "avgNDVI": 0.78,
+    "stressAlerts": [
+      {"zone": "South Block", "issue": "Moisture Stress", "severity": "medium"},
+      {"zone": "North Block", "issue": "N Deficiency", "severity": "low"}
+    ]
+  },
+  "equipmentUsage": {
+    "dailyHours": [
+      {"day": "Mon", "tractor": 6.5, "sprayer": 3.0, "harvester": 0},
+      {"day": "Tue", "tractor": 7.2, "sprayer": 2.5, "harvester": 0},
+      {"day": "Wed", "tractor": 5.8, "sprayer": 0, "harvester": 4.4},
+      {"day": "Thu", "tractor": 6.9, "sprayer": 1.8, "harvester": 3.1},
+      {"day": "Fri", "tractor": 5.4, "sprayer": 2.2, "harvester": 5.5},
+      {"day": "Sat", "tractor": 4.1, "sprayer": 0, "harvester": 6.0},
+      {"day": "Sun", "tractor": 2.3, "sprayer": 0, "harvester": 0}
+    ],
+    "utilizationPct": 78
+  },
+  "pestPressure": {
+    "pests": [
+      {"name": "Brown Planthopper", "riskPct": 62, "affectedCrop": "Paddy", "recommendedAction": "Release tricho cards"},
+      {"name": "Fall Armyworm", "riskPct": 38, "affectedCrop": "Maize", "recommendedAction": "Spinetoram spray"},
+      {"name": "Aphids", "riskPct": 24, "affectedCrop": "Chickpea", "recommendedAction": "Neem oil application"}
+    ],
+    "scoutingCoveragePct": 88
+  }
+}

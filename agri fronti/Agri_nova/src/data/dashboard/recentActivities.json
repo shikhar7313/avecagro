@@ -1,0 +1,5 @@
+{
+  "maxActivities": 10,
+  "defaultUser": "System",
+  "windowHours": 24
+}

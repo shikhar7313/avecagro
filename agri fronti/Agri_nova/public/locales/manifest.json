@@ -1,0 +1,8 @@
+{
+  "defaultLanguage": "en",
+  "languages": [
+    { "code": "en", "name": "English", "nativeName": "English" },
+    { "code": "hi", "name": "Hindi", "nativeName": "हिन्दी" },
+    { "code": "pa", "name": "Punjabi", "nativeName": "ਪੰਜਾਬੀ" }
+  ]
+}

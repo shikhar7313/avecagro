@@ -1,0 +1,37 @@
+{
+  "npk_prediction": {
+    "estimated_N": 89.52,
+    "estimated_P": 42.37,
+    "estimated_K": 67.81
+  },
+  "intercropping_prediction": {
+    "Soil_Resource_Sharing_Score": 0.87,
+    "Space_Utilization_Efficiency_%": 78.5,
+    "Yield_Impact_%": 12.3
+  },
+  "multiheight_prediction": {
+    "Crops": [
+      {
+        "Name": "Onion",
+        "Predicted_Height": "Underground",
+        "Predicted_Growth_Duration": 134.1,
+        "Predicted_Water_Needs": "Medium"
+      },
+      {
+        "Name": "Pigeonpea",
+        "Predicted_Height": "On-ground",
+        "Predicted_Growth_Duration": 138.5,
+        "Predicted_Water_Needs": "Medium"
+      },
+      {
+        "Name": "Rice",
+        "Predicted_Height": "Above-ground",
+        "Predicted_Growth_Duration": 145.2,
+        "Predicted_Water_Needs": "High"
+      }
+    ],
+    "Yield_Impact": 15.2,
+    "Space_Utilization": 82.5,
+    "Soil_Resource": 0.91
+  }
+}

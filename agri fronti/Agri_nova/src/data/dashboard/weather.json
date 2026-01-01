@@ -1,0 +1,11 @@
+{
+  "temperature": 28,
+  "humidity": 65,
+  "windSpeed": 12,
+  "condition": "Partly Cloudy",
+  "forecast": [
+    { "day": "Today", "high": 28, "low": 18, "condition": "Partly Cloudy" },
+    { "day": "Tomorrow", "high": 30, "low": 20, "condition": "Sunny" },
+    { "day": "Wednesday", "high": 26, "low": 16, "condition": "Rainy" }
+  ]
+}

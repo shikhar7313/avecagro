@@ -1,0 +1,95 @@
+/* stylelint-disable */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 font-sans text-white;
+    cursor: auto; /* Ensure cursor is visible */
+  }
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+    cursor: auto; /* Ensure cursor is visible */
+  }
+
+  /* Custom scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  /* Firefox scrollbar */
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+  }
+
+  body, html, * {
+    cursor: auto !important;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-gray-800/80 backdrop-blur-md border border-gray-700/50 shadow-2xl rounded-xl text-white;
+  }
+
+  header.glass-card {
+    position: relative;
+    z-index: 50;
+  }
+  
+  .glass-sidebar {
+    @apply bg-gray-800/90 backdrop-blur-lg border-r border-gray-700/50 text-white;
+  }
+  
+  .hover-lift {
+    @apply transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 hover:bg-gray-700/60;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-emerald-300 to-green-300 bg-clip-text text-transparent;
+  }
+  
+  .chart-container {
+    @apply p-6 rounded-xl bg-gray-800/80 backdrop-blur-md border border-gray-700/50 shadow-lg hover:shadow-xl transition-all duration-300 text-white;
+  }
+  
+  .text-primary {
+    @apply text-white;
+  }
+  
+  .text-secondary {
+    @apply text-gray-300;
+  }
+  
+  .text-muted {
+    @apply text-gray-400;
+  }
+  
+  .text-subtle {
+    @apply text-gray-500;
+  }
+}
+
+/* DEBUG: highlight any element with cursor:none */
+*:not(html):not(body)[style*="cursor: none"], 
+*:not(html):not(body)[class*="cursor-none"] {
+  outline: 2px solid red !important;
+  cursor: auto !important;
+  z-index: 99999 !important;
+}

@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  @layer base {
+    body {
+      @apply bg-gray-900 font-sans text-white antialiased;
+      cursor: auto;
+    }
+
+    html {
+      scrollbar-width: thin;
+      scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+      cursor: auto;
+    }
+
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 4px;
+      border: 2px solid transparent;
+      background-clip: content-box;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+    }
+
+    body,
+    html,
+    * {
+      cursor: auto !important;
+    }
+  }
+
+  @layer components {
+    .glass-card {
+      @apply rounded-3xl border border-white/10 bg-white/5 p-6 text-white shadow-2xl shadow-emerald-500/10 backdrop-blur-xl;
+    }
+
+    .glass-sidebar {
+      @apply border-r border-white/10 bg-white/5 text-white backdrop-blur-lg;
+    }
+
+    .hover-lift {
+      @apply transition duration-300 ease-out hover:-translate-y-1 hover:bg-white/10 hover:shadow-xl hover:shadow-emerald-500/20;
+    }
+
+    .gradient-text {
+      @apply bg-gradient-to-r from-emerald-300 via-emerald-400 to-emerald-300 bg-clip-text text-transparent;
+    }
+
+    .chart-container {
+      @apply rounded-3xl border border-white/10 bg-gray-800/80 p-6 text-white shadow-lg shadow-black/40 backdrop-blur;
+    }
+
+    .text-muted {
+      @apply text-gray-400;
+    }
+
+    .button-solid {
+      @apply inline-flex items-center justify-center rounded-full bg-emerald-400 px-6 py-3 font-semibold text-gray-900 shadow-glow transition hover:bg-emerald-300;
+    }
+
+    .button-ghost {
+      @apply inline-flex items-center justify-center rounded-full border border-white/30 px-6 py-3 font-semibold text-white transition hover:border-white hover:bg-white/10;
+    }
+
+    .section-shell {
+      @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+    }
+
+    .section-title {
+      @apply text-3xl font-semibold text-white md:text-4xl;
+    }
+
+    .section-copy {
+      @apply text-lg text-gray-400;
+    }
+  }
+
+  *:not(html):not(body)[style*="cursor: none"],
+  *:not(html):not(body)[class*="cursor-none"] {
+    outline: 2px solid red !important;
+    cursor: auto !important;
+    z-index: 99999 !important;
+  }
+  .card.compact {
+    @apply p-5;
+  }
+
+  .hero-node {
+    @apply rounded-2xl bg-white/90 px-5 py-3 text-sm font-semibold text-ink shadow-card;
+  }
+}

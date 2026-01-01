@@ -1,0 +1,323 @@
+[
+  {
+    "id": 1,
+    "title": "Soil Sampling",
+    "date": "2025-08-01",
+    "time": "08:00 AM",
+    "status": "complete",
+    "priority": "medium",
+    "duration": "1h",
+    "actions": [
+      "Collect soil samples",
+      "Label samples",
+      "Send to lab"
+    ],
+    "tools": [
+      "Spade",
+      "Sample bags"
+    ],
+    "how_to": [
+      "Dig 15cm deep holes at 5 points across the field.",
+      "Collect soil into bags and label with location.",
+      "Ship or deliver samples to the lab for analysis."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Irrigation Check",
+    "date": "2025-08-02",
+    "time": "09:30 AM",
+    "status": "complete",
+    "priority": "high",
+    "duration": "45m",
+    "actions": [
+      "Inspect drip lines",
+      "Clear blockages"
+    ],
+    "tools": [
+      "Gloves",
+      "Wrench"
+    ],
+    "how_to": [
+      "Walk entire line and look for leaks.",
+      "Use wrench to tighten or replace fittings.",
+      "Flush system for 5 minutes to clear debris."
+    ],
+    "completedAt": 1754129385312
+  },
+  {
+    "id": 3,
+    "title": "Plant Corn Seeds",
+    "date": "2025-08-03",
+    "time": "10:00 AM",
+    "status": "pending",
+    "priority": "medium",
+    "duration": "2h",
+    "actions": [
+      "Calibrate seed planter",
+      "Plant seeds in rows"
+    ],
+    "tools": [
+      "Seeder",
+      "Measuring tape"
+    ],
+    "how_to": [
+      "Set row spacing to 30cm using tape.",
+      "Fill seeder with hybrid corn seeds.",
+      "Drive planter at 5km/h along row."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Fertilizer Application",
+    "date": "2025-08-04",
+    "time": "11:00 AM",
+    "status": "pending",
+    "priority": "low",
+    "duration": "1.5h",
+    "actions": [
+      "Mix fertilizer solution",
+      "Evenly spread across field"
+    ],
+    "tools": [
+      "Fertilizer spreader",
+      "Mixing bucket"
+    ],
+    "how_to": [
+      "Combine 20kg NPK in 100L water.",
+      "Stir mixture thoroughly.",
+      "Walk field in grid pattern to apply."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Pest Inspection",
+    "date": "2025-08-05",
+    "time": "01:00 PM",
+    "status": "pending",
+    "priority": "high",
+    "duration": "1h",
+    "actions": [
+      "Walk fields",
+      "Inspect plants for pests"
+    ],
+    "tools": [
+      "Hand lens",
+      "Notebook"
+    ],
+    "how_to": [
+      "Examine leaf undersides for eggs.",
+      "Note pest type and location.",
+      "Report findings to supervisor."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Pump Maintenance",
+    "date": "2025-07-30",
+    "time": "07:00 AM",
+    "status": "backlogged",
+    "priority": "high",
+    "duration": "2h",
+    "actions": [
+      "Drain pump housing",
+      "Replace seals"
+    ],
+    "tools": [
+      "Screwdriver set",
+      "Seal replacement kit"
+    ],
+    "how_to": [
+      "Shut off main valve before servicing.",
+      "Open drain plug and remove old seals.",
+      "Install new seals and reassemble pump."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Weed Control",
+    "date": "2025-08-02",
+    "time": "02:00 PM",
+    "status": "complete",
+    "priority": "medium",
+    "duration": "1.5h",
+    "actions": [
+      "Identify weed species",
+      "Apply herbicide"
+    ],
+    "tools": [
+      "Herbicide sprayer",
+      "Protective mask"
+    ],
+    "how_to": [
+      "Don protective gear before mixing.",
+      "Dilute herbicide per label.",
+      "Spray targeted areas only."
+    ],
+    "completedAt": 1754135032748
+  },
+  {
+    "id": 8,
+    "title": "Greenhouse Ventilation",
+    "date": "2025-08-06",
+    "time": "09:00 AM",
+    "status": "pending",
+    "priority": "low",
+    "duration": "30m",
+    "actions": [
+      "Open roof vents",
+      "Check thermostat settings"
+    ],
+    "tools": [
+      "Ladder",
+      "Thermometer"
+    ],
+    "how_to": [
+      "Climb ladder safely to roof vents.",
+      "Turn vents to wide open.",
+      "Verify ambient temperature."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Harvest Tomatoes",
+    "date": "2025-08-07",
+    "time": "07:00 AM",
+    "status": "pending",
+    "priority": "high",
+    "duration": "3h",
+    "actions": [
+      "Pick ripe tomatoes",
+      "Sort by size"
+    ],
+    "tools": [
+      "Harvest baskets",
+      "Sorting table"
+    ],
+    "how_to": [
+      "Gently twist tomatoes from vine.",
+      "Place in baskets without stacking.",
+      "Sort into small/medium/large bins."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Inspect Soil Moisture",
+    "date": "2025-08-02",
+    "time": "08:30 AM",
+    "status": "complete",
+    "priority": "medium",
+    "duration": "1h",
+    "actions": [
+      "Deploy moisture sensors",
+      "Record readings"
+    ],
+    "tools": [
+      "Soil moisture probe",
+      "Notebook"
+    ],
+    "how_to": [
+      "Insert sensor into soil at root depth.",
+      "Wait 1 minute and record moisture level.",
+      "Repeat at four corners of plot."
+    ],
+    "acceptedAt": 1754217000000,
+    "completedAt": 1754156171326
+  },
+  {
+    "id": 11,
+    "title": "Plant Seedlings",
+    "date": "2025-08-02",
+    "time": "09:00 AM",
+    "status": "complete",
+    "priority": "high",
+    "duration": "2h",
+    "actions": [
+      "Prepare seed trays",
+      "Place seedlings"
+    ],
+    "tools": [
+      "Seed trays",
+      "Potting mix"
+    ],
+    "how_to": [
+      "Fill trays with moist potting mix.",
+      "Space seedlings 10cm apart.",
+      "Water gently after planting."
+    ],
+    "acceptedAt": 1754218800000,
+    "completedAt": 1754380978589
+  },
+  {
+    "id": 12,
+    "title": "Clean Irrigation Lines",
+    "date": "2025-08-02",
+    "time": "10:30 AM",
+    "status": "complete",
+    "priority": "high",
+    "duration": "1.5h",
+    "actions": [
+      "Flush system",
+      "Replace filters"
+    ],
+    "tools": [
+      "Open-end wrench",
+      "Replacement filters"
+    ],
+    "how_to": [
+      "Shut off main water supply.",
+      "Open flush valves until clear water flows.",
+      "Replace clogged filters."
+    ],
+    "acceptedAt": 1754224200000,
+    "completedAt": 1764270584857
+  },
+  {
+    "id": 13,
+    "title": "Harvest Bell Peppers",
+    "date": "2025-08-02",
+    "time": "11:30 AM",
+    "status": "complete",
+    "priority": "medium",
+    "duration": "2h",
+    "actions": [
+      "Pick ripe peppers",
+      "Sort sizes"
+    ],
+    "tools": [
+      "Harvest baskets",
+      "Sharp shears"
+    ],
+    "how_to": [
+      "Cut peppers carefully at stem.",
+      "Place in baskets to avoid bruising.",
+      "Group by color and size."
+    ],
+    "acceptedAt": 1754227800000,
+    "completedAt": 1754136190231
+  },
+  {
+    "id": 14,
+    "title": "Review Fertilization Plan",
+    "date": "2025-08-02",
+    "time": "01:00 PM",
+    "status": "complete",
+    "priority": "low",
+    "duration": "1h",
+    "actions": [
+      "Assess soil test results",
+      "Adjust nutrient mix"
+    ],
+    "tools": [
+      "Soil test report",
+      "Calculator"
+    ],
+    "how_to": [
+      "Compare current NPK levels to targets.",
+      "Compute amendment rates.",
+      "Update field map with dosing plan."
+    ],
+    "acceptedAt": 1754230800000,
+    "completedAt": 1754136182134
+  }
+]

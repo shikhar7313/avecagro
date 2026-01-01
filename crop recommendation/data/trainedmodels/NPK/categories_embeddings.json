@@ -1,0 +1,20 @@
+{
+  "soil_vocab": [
+    "clayey",
+    "loamy",
+    "sandy",
+    "silty"
+  ],
+  "crop_vocab": [
+    "chickpea",
+    "cotton",
+    "lentil",
+    "maize",
+    "potato",
+    "rice",
+    "soybean",
+    "sugarcane",
+    "tomato",
+    "wheat"
+  ]
+}

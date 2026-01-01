@@ -1,0 +1,20 @@
+{
+  "soil_types": [
+    "clayey",
+    "loamy",
+    "sandy",
+    "silty"
+  ],
+  "last_crops": [
+    "chickpea",
+    "cotton",
+    "lentil",
+    "maize",
+    "potato",
+    "rice",
+    "soybean",
+    "sugarcane",
+    "tomato",
+    "wheat"
+  ]
+}

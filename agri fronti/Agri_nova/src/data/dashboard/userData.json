@@ -1,0 +1,248 @@
+[
+    {
+        "username": "Deviant-30",
+        "primaryCrop": "whewhear",
+        "farmSize": "2",
+        "farmingMethod": "conventional"
+    },
+    {
+        "username": "Deviant-31",
+        "primaryCrop": "wheat",
+        "farmSize": "5",
+        "farmingMethod": "conventional"
+    },
+    {
+        "username": "Deviant-33",
+        "primaryCrop": "wheat",
+        "farmSize": "50",
+        "farmingMethod": "integrated"
+    },
+    {
+        "username": "Deviant-33",
+        "primaryCrop": "Corn",
+        "farmSize": "40",
+        "farmingMethod": "conventional"
+    },
+    {
+        "username": "Deviant-33",
+        "primaryCrop": "wheat",
+        "farmSize": "5",
+        "farmingMethod": "organic",
+        "soilType": "loamy",
+        "lastCropPlanted": "rice",
+        "cropResidueHandling": "burned"
+    },
+    {
+        "username": "Deviant-34",
+        "primaryCrop": "wheat",
+        "farmSize": "5",
+        "farmingMethod": "conventional",
+        "soilType": "loamy",
+        "lastCropPlanted": "rice",
+        "cropResidueHandling": "burned"
+    },
+    {
+        "username": "Deviant-38",
+        "primaryCrop": "Corn",
+        "farmSize": "5",
+        "farmingMethod": "organic",
+        "soilType": "loamy",
+        "lastCropPlanted": "rice",
+        "cropResidueHandling": "burned"
+    },
+    {
+        "username": "Deviant-40",
+        "primaryCrop": "Corn",
+        "farmSize": "5",
+        "farmingMethod": "organic",
+        "soilType": "loamy",
+        "lastCropPlanted": "rice",
+        "cropResidueHandling": "burned"
+    },
+    {
+        "username": "Deviant-39",
+        "primaryCrop": "Corn",
+        "farmSize": "5",
+        "farmingMethod": "conventional",
+        "soilType": "loamy",
+        "lastCropPlanted": "rice",
+        "cropResidueHandling": "left"
+    },
+    {
+        "username": "Deviant-42",
+        "primaryCrop": "Corn",
+        "farmSize": "5",
+        "farmingMethod": "organic",
+        "soilType": "loamy",
+        "lastCropPlanted": "rice",
+        "cropResidueHandling": "left"
+    },
+    {
+        "username": "Deviant-43",
+        "primaryCrop": "Corn",
+        "farmSize": "5",
+        "farmingMethod": "organic",
+        "soilType": "loamy",
+        "lastCropPlanted": "rice",
+        "cropResidueHandling": "burned"
+    },
+    {
+        "username": "Deviant-52",
+        "primaryCrop": "Corn",
+        "farmSize": "85",
+        "farmingMethod": "organic",
+        "soilType": "loamy",
+        "lastCropPlanted": "rice",
+        "cropResidueHandling": "left"
+    },
+    {
+        "username": "Deviant-53",
+        "primaryCrop": "Corn",
+        "farmSize": "5",
+        "farmingMethod": "organic",
+        "soilType": "loamy",
+        "lastCropPlanted": "rice",
+        "cropResidueHandling": "burned"
+    },
+    null,
+    {
+        "username": "Deviant-84",
+        "primaryCrop": "Corn",
+        "lastCropPlanted": "rice",
+        "farmSize": "5",
+        "soilType": "loamy",
+        "soilTestReport": "No",
+        "irrigationAccess": "na",
+        "farmingMethod": "Conventional",
+        "nextSeason": "kharif",
+        "cropResidueHandling": "Burned",
+        "sunlightCondition": "full sun",
+        "intercroppingOpen": "Maybe"
+    },
+    {
+        "username": "Deviant-85",
+        "primaryCrop": "Corn",
+        "lastCropPlanted": "rice",
+        "farmSize": "58",
+        "soilType": "loamy",
+        "soilTestReport": "No",
+        "irrigationAccess": "na",
+        "farmingMethod": "Organic",
+        "nextSeason": "kharif",
+        "cropResidueHandling": "Burned",
+        "sunlightCondition": "full sun",
+        "intercroppingOpen": "Maybe"
+    },
+    {
+        "username": "Deviant-86",
+        "primaryCrop": "Corn",
+        "lastCropPlanted": "rice",
+        "farmSize": "50",
+        "soilType": "loamy",
+        "soilTestReport": "No",
+        "irrigationAccess": "na",
+        "farmingMethod": "Conventional",
+        "nextSeason": "kharif",
+        "cropResidueHandling": "Burned",
+        "sunlightCondition": "full sun",
+        "intercroppingOpen": "Maybe"
+    },
+    {
+        "username": "Deviant-87",
+        "primaryCrop": "Corn",
+        "lastCropPlanted": "rice",
+        "farmSize": "5",
+        "soilType": "loamy",
+        "soilTestReport": "No",
+        "irrigationAccess": "na",
+        "farmingMethod": "Conventional",
+        "nextSeason": "kharif",
+        "cropResidueHandling": "Burned",
+        "sunlightCondition": "full sun",
+        "intercroppingOpen": "Maybe"
+    },
+    {
+        "username": "Deviant-88",
+        "primaryCrop": "wheat",
+        "lastCropPlanted": "rice",
+        "farmSize": "5",
+        "soilType": "loamy",
+        "soilTestReport": "Yes",
+        "irrigationAccess": "na",
+        "farmingMethod": "Conventional",
+        "nextSeason": "kharif",
+        "cropResidueHandling": "Burned",
+        "sunlightCondition": "full sun",
+        "intercroppingOpen": "Maybe"
+    },
+    {
+        "username": "Deviant-89",
+        "primaryCrop": "wheat",
+        "lastCropPlanted": "rice",
+        "farmSize": "5",
+        "soilType": "loamy",
+        "soilTestReport": "Yes",
+        "irrigationAccess": "na",
+        "farmingMethod": "Conventional",
+        "nextSeason": "kharif",
+        "cropResidueHandling": "Left",
+        "sunlightCondition": "full sun",
+        "intercroppingOpen": "No"
+    },
+    {
+        "username": "Deviant-89",
+        "primaryCrop": "wheat",
+        "lastCropPlanted": "rice",
+        "farmSize": "5",
+        "soilType": "loamy",
+        "soilTestReport": "No",
+        "irrigationAccess": "na",
+        "farmingMethod": "Organic",
+        "nextSeason": "kharif",
+        "cropResidueHandling": "Burned",
+        "sunlightCondition": "full sun",
+        "intercroppingOpen": "Maybe"
+    },
+    {
+        "username": "Samridhi-12",
+        "primaryCrop": "wheat",
+        "lastCropPlanted": "rice",
+        "farmSize": "50",
+        "soilType": "sandy",
+        "soilTestReport": "No",
+        "irrigationAccess": "drip",
+        "farmingMethod": "Organic",
+        "nextSeason": "rabi",
+        "cropResidueHandling": "Left",
+        "sunlightCondition": "full sun",
+        "intercroppingOpen": "Yes"
+    },
+    {
+        "username": "Ghoul",
+        "primaryCrop": "corn",
+        "lastCropPlanted": "rice",
+        "farmSize": "4",
+        "soilType": "clayey",
+        "soilTestReport": "No",
+        "irrigationAccess": "ds",
+        "farmingMethod": "Organic",
+        "nextSeason": "sc",
+        "cropResidueHandling": "Left",
+        "sunlightCondition": "adc",
+        "intercroppingOpen": "Yes"
+    },
+    {
+        "username": "gear",
+        "primaryCrop": "sdc",
+        "lastCropPlanted": "rice",
+        "farmSize": "50",
+        "soilType": "cleayey",
+        "soilTestReport": "No",
+        "irrigationAccess": "flood",
+        "farmingMethod": "Integrated",
+        "nextSeason": "zaid",
+        "cropResidueHandling": "Burned",
+        "sunlightCondition": "full sun",
+        "intercroppingOpen": "No"
+    }
+]

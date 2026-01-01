@@ -1,0 +1,95 @@
+{
+  "current": {
+    "temp": 16.3,
+    "feels_like": 16.3,
+    "humidity": 55,
+    "pressure": 1020,
+    "wind_speed": 3.611111111111111,
+    "wind_deg": 300,
+    "visibility": 1.5,
+    "uvi": 1.4,
+    "weather": [
+      {
+        "main": "Mist",
+        "description": "Mist",
+        "icon": "//cdn.weatherapi.com/weather/64x64/day/143.png"
+      }
+    ],
+    "location": {
+      "name": "New Delhi",
+      "country": "India",
+      "region": "Delhi",
+      "lat": 28.6,
+      "lon": 77.2
+    }
+  },
+  "daily": [
+    {
+      "dt": 1765238400,
+      "temp": {
+        "min": 15.8,
+        "max": 26,
+        "day": 20.2
+      },
+      "humidity": 17,
+      "pressure": 1020,
+      "wind_speed": 4.611111111111112,
+      "wind_deg": 0,
+      "weather": [
+        {
+          "main": "Sunny",
+          "description": "Sunny",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        }
+      ],
+      "rain": 0,
+      "clouds": 10,
+      "uvi": 0.8
+    },
+    {
+      "dt": 1765324800,
+      "temp": {
+        "min": 16.3,
+        "max": 26.1,
+        "day": 20.5
+      },
+      "humidity": 17,
+      "pressure": 1020,
+      "wind_speed": 3.5,
+      "wind_deg": 0,
+      "weather": [
+        {
+          "main": "Sunny",
+          "description": "Sunny",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        }
+      ],
+      "rain": 0,
+      "clouds": 10,
+      "uvi": 0.8
+    },
+    {
+      "dt": 1765411200,
+      "temp": {
+        "min": 16.6,
+        "max": 25.7,
+        "day": 20.7
+      },
+      "humidity": 18,
+      "pressure": 1020,
+      "wind_speed": 2.111111111111111,
+      "wind_deg": 0,
+      "weather": [
+        {
+          "main": "Sunny",
+          "description": "Sunny",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        }
+      ],
+      "rain": 0,
+      "clouds": 10,
+      "uvi": 0.8
+    }
+  ],
+  "major": []
+}

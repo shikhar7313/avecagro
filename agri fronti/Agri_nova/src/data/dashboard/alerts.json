@@ -1,0 +1,5 @@
+{
+  "taskAlertThresholdHours": 24,
+  "weatherRainConditions": ["rain","storm"],
+  "heatAlertTemperature": 35
+}

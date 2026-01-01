@@ -1,0 +1,5 @@
+[
+  { "name": "wheat", "n_depletion": 20, "p_depletion": 10, "k_depletion": 15 },
+  { "name": "rice", "n_depletion": 25, "p_depletion": 12, "k_depletion": 18 },
+  { "name": "maize", "n_depletion": 30, "p_depletion": 15, "k_depletion": 20 }
+]

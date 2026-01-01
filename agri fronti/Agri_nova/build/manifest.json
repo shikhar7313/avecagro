@@ -1,0 +1,9 @@
+{
+  "short_name": "AvecAgro",
+  "name": "AvecAgro - Smart Farming Analytics Dashboard",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#10b981",
+  "theme_color": "#10b981",
+  "description": "Smart Farming Analytics Dashboard"
+}
